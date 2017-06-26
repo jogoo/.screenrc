@@ -1,3 +1,3 @@
 # screen_setup
-
-Move to ~ for installation.
+1. Move `.screenrc` to `~/`
+2. Add `[[ $TERM != "screen" ]] && exec screen` to `.bashrc`
